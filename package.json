@@ -1,0 +1,22 @@
+{
+	"name": "boomerang-e2e",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"prettier": "prettier --write './e2e/**'",
+		"test:prod:android:mobile": "npx playwright test --headed --project='Pixel 5'",
+		"test:prod:iPhone:mobile": "npx playwright test --headed --project='iPhone 13'"
+	},
+	"keywords": [],
+	"author": "akholopov",
+	"license": "ISC",
+	"devDependencies": {
+		"@playwright/test": "^1.19.2"
+	},
+	"dependencies": {
+		"playwright": "^1.19.2",
+		"prettier": "^2.5.1",
+		"random-number": "^0.0.9"
+	}
+}
