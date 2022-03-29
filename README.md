@@ -13,8 +13,8 @@ Select node version from the repo: `nvm use`
 
 Install dependencies by running `yarn`
 
-How to run tests on Chromium browser in headed mode on production environment:
+How to run tests on android mobile browser in headed mode on production environment:
 
 ```
-test:develop:chrome
+yarn test:android:mobile
 ```

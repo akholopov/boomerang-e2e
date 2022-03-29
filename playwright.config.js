@@ -13,7 +13,7 @@ const { devices } = require('@playwright/test');
  */
 const config = {
 	testDir: './e2e/tests',
-	testMatch: ['DG-603-landing-page.spec.js'],
+	// testMatch: ['DG-603-landing-page.spec.js'],
 	/* Maximum time one test can run for. */
 	timeout: 90 * 1000,
 	expect: {
@@ -21,7 +21,7 @@ const config = {
 		 * Maximum time expect() should wait for the condition to be met.
 		 * For example in `await expect(locator).toHaveText();`
 		 */
-		timeout: 5000,
+		timeout: 10000,
 	},
 	/* Fail the build on CI if you accidentally left test.only in the source code. */
 	forbidOnly: !!process.env.CI,
