@@ -1,5 +1,4 @@
 const { test, expect } = require('@playwright/test');
-const { messages } = require('../common/messages.js');
 const { BoomerangPage } = require('../pages/BoomerangPage.js');
 const { newUser } = require('../common/userData.js');
 const { delay } = require('../pages/utils.js');

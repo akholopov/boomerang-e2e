@@ -1,6 +1,4 @@
-const { expect } = require('@playwright/test');
 const { boomerangUrl } = require('../common/urls.js');
-const { messages } = require('../common/messages.js');
 
 exports.BoomerangPage = class BoomerangPage {
 	constructor(page) {
